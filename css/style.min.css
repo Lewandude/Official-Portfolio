@@ -1693,8 +1693,9 @@ p {
    background-size: cover;
    align-self: center;
    position: relative;
-   background-position: center center
+   background-position: right;
 }
+
 
 .bg-half {
    padding: 170px 0;
@@ -1825,10 +1826,8 @@ p {
 
 @media (max-width: 767px) {
 
-   .bg-home,
-   .bg-half {
-      padding: 150px 0;
-      height: auto
+   .bg-home {
+      background-image: none !important;
    }
 
    .bg-pages {
