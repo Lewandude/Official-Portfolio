@@ -142,7 +142,16 @@ a.text-dark:focus {
 .text-muted {
    color: #8492a6 !important
 }
+.text-muted-1 {
+   color: #b52536 !important;
+  
+}
 
+a.text-muted-1:hover,
+a.text-muted-1:focus {
+   color: #d7d5d5 !important;
+  
+}
 a.text-muted:hover,
 a.text-muted:focus {
    color: #68788f !important
